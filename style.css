@@ -149,7 +149,7 @@ body a{
 .caixa_prato p{
     color: #d49b35;
     font-family: Crimson Text;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     margin: 0;
 }
@@ -157,7 +157,7 @@ body a{
 .caixa_prato label{
     color: #d49b35;
     font-family: Crimson Text;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .caixa_prato img{
@@ -170,7 +170,7 @@ body a{
 .caixa_prato input{
     padding:5px;
     margin: 0 0 0 5px;
-    width:35px;
+    width:30px;
     border:1px solid #d49b35;
     background-color: #141414;
     color: #d49b35;
@@ -241,7 +241,7 @@ body a{
     gap: 150px;
 }
 .logo_footer img{
-    height: 100px;
+    height: 120px;
     top: 10%;
     left: 20%;
     position: relative;
