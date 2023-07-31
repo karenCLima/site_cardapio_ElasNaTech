@@ -1,0 +1,280 @@
+body{
+    background-color: #141414;
+}
+
+/*Aqui é o Header */
+
+.nav_superior{
+    background-color: #141414;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.botao_nav_sup{
+    font-family: Crimson Text;  
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0) ;
+    text-decoration: none;
+    width: 200px;
+    margin-right: 5px;
+    margin-bottom: px;
+    border: 2px solid #d49b35;
+    padding: 8px 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao_nav_sup:hover{
+    background-color: #d49b35;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(imagens/banner.png);
+    background-color: rgba(20, 20, 20, 0.7); 
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 220px;
+    width:220px;
+    background-image: url(imagens/logo1.png);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.slogan{
+    height: 150px;
+    position: absolute;
+    top:60%;
+    left:40%;
+    color: #d49b35;
+    font-family: Crimson Text;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.slogan h1{
+    font-size: 40px;
+    text-shadow: 3px 3px 0px rgba(5, 5, 5, 0.7);
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.slogan h3{
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 3px 3px 0px rgba(5, 5, 5, 0.7);
+    padding-top: 0;
+    margin: 0;
+}
+
+/*Aqui começa o corpo principal- pratos principais*/
+
+ body h1{
+    font-family: Crimson Text; 
+    font-style: italic;
+    color: #d49b35;
+    font-size: 60px;
+    text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.2);
+}
+body p{
+    color: #d49b35;
+    font-family: Crimson Text;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    text-decoration: none;
+}
+
+body a{
+    color: #d49b35;
+    font-family: Crimson Text;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    text-decoration: none;
+}
+
+.pratos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
+    margin: 0 15px;
+}
+
+.caixa_prato{
+    height: 550px;
+    width: 320px;
+    border: 2px solid #d49b35;
+    border-radius: 5%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #141414;
+}
+
+.caixa_prato h2{
+    color: #d49b35;
+    font-family: Crimson Text;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.caixa_prato p{
+    color: #d49b35;
+    font-family: Crimson Text;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.caixa_prato label{
+    color: #d49b35;
+    font-family: Crimson Text;
+    font-size: 15px;
+}
+
+.caixa_prato img{
+    margin-top: 5px;
+    max-width: 90%;
+    height: 220px;
+    border-radius: 10%;
+}
+
+.caixa_prato input{
+    padding:5px;
+    margin: 0 0 0 5px;
+    width:35px;
+    border:1px solid #d49b35;
+    background-color: #141414;
+    color: #d49b35;
+}
+
+.caixa_prato button{
+    font-family: Crimson Text;  
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0) ;
+    text-decoration: none;
+    width: 170px;
+    margin-right: 5px;
+    border: 2px solid #d49b35;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.caixa_prato button:hover{
+    background-color: #d49b35;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mapa iframe{
+    height: 500px;
+    width: 600px;
+    margin: 50px 0 80px;
+    
+}
+.mapa h2{
+    text-shadow: 3px 3px 0px rgba(5, 5, 5, 0.7);
+    color: #d49b35;
+    font-family: Crimson Text;
+    font-size: 50px;
+}
+
+.endereco p{
+    color: #d49b35;
+    font-family: Crimson Text;
+    font-size: 25px;
+
+}
+
+.endereco svg{
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+    fill: #d49b35;
+}
+
+
+
+/*Aqui começa o footer*/
+
+.footer{
+    padding: 0;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 220px;
+}
+.logo_footer img{
+    height: 170px;
+    top: 10%;
+    left: 20%;
+    position: relative;
+}
+.palavras_footer{
+    font-size: 25px;
+    text-shadow: 3px 3px 0px 5px rgba(5, 5, 5, 0.7);
+    color: #d49b35;
+    font-family: Crimson Text;
+}
+.palavras_footer p{
+    font-size: 17px;
+}
+
+.palavras_footer a{
+    font-size: 17px;
+    color: #d49b35;
+    text-decoration: none; /*retira o sublinhado*/
+}
+
+.palavras_footer svg{
+    margin: 4px;
+}
+
+.redes_sociais p{
+    font-size: 20px;
+    text-shadow: 3px 3px 0px rgba(5, 5, 5, 0.7);
+    color: #d49b35;
+    font-family: Crimson Text;
+}
+
+.redes_sociais svg{
+    height: 40px;
+    margin: 10px 5px ;
+    position: relative;
+}
