@@ -56,7 +56,7 @@ body{
     background-size: cover;
     position: absolute;
     top: 40%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -64,7 +64,7 @@ body{
     height: 150px;
     position: absolute;
     top:60%;
-    left:50%;
+    left:40%;
     color: #d49b35;
     font-family: Crimson Text;
     display: flex;
