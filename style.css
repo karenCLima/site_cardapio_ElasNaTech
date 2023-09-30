@@ -62,9 +62,10 @@ body{
 }
 .slogan{
     height: 9.375rem;
-    position: absolute;
-    top:60%;
-    left:40%;
+    position:relative;
+    top: 50%; /* Relativo ao elemento pai */
+    left: 50%; /* Relativo ao elemento pai */
+    transform: translate(-50%, -50%);
     color: #d49b35;
     font-family: Crimson Text;
     display: flex;
