@@ -63,7 +63,7 @@ body{
 .slogan{
     height: 9.375rem;
     position:relative;
-    top: 50%; /* Relativo ao elemento pai */
+    top: 40%; /* Relativo ao elemento pai */
     left: 50%; /* Relativo ao elemento pai */
     transform: translate(-50%, -50%);
     color: #d49b35;
